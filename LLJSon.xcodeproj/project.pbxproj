@@ -15,6 +15,7 @@
 		3E2671531C36B08F007C175A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2671521C36B08F007C175A /* Images.xcassets */; };
 		3E2671561C36B08F007C175A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2671541C36B08F007C175A /* LaunchScreen.xib */; };
 		3E2671621C36B090007C175A /* LLJSonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2671611C36B090007C175A /* LLJSonTests.m */; };
+		3E26716D1C36B113007C175A /* LLJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E26716C1C36B113007C175A /* LLJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		3E26715B1C36B090007C175A /* LLJSonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLJSonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2671601C36B090007C175A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2671611C36B090007C175A /* LLJSonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLJSonTests.m; sourceTree = "<group>"; };
+		3E26716B1C36B113007C175A /* LLJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLJson.h; sourceTree = "<group>"; };
+		3E26716C1C36B113007C175A /* LLJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLJson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				3E2671471C36B08F007C175A /* AppDelegate.m */,
 				3E26714C1C36B08F007C175A /* ViewController.h */,
 				3E26714D1C36B08F007C175A /* ViewController.m */,
+				3E26716B1C36B113007C175A /* LLJson.h */,
+				3E26716C1C36B113007C175A /* LLJson.m */,
 				3E26714F1C36B08F007C175A /* Main.storyboard */,
 				3E2671521C36B08F007C175A /* Images.xcassets */,
 				3E2671541C36B08F007C175A /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				3E2671481C36B08F007C175A /* AppDelegate.m in Sources */,
 				3E2671451C36B08F007C175A /* main.m in Sources */,
+				3E26716D1C36B113007C175A /* LLJson.m in Sources */,
 				3E26714E1C36B08F007C175A /* ViewController.m in Sources */,
 				3E26714B1C36B08F007C175A /* LLJSon.xcdatamodeld in Sources */,
 			);
@@ -352,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLJSon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLJSon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
